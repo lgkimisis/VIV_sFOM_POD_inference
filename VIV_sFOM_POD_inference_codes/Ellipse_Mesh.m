@@ -1,5 +1,4 @@
 function[vert,etri,tria,tnum]=Ellipse_Mesh(xc,yc,Rx,Ry,xmax,ymax)
-%DEMO0 a very simple example to start with -- mesh a square
 %domain with a square hold cut from its centre.
 
 %First we define the edge points
