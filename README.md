@@ -10,14 +10,14 @@ https://arxiv.org/abs/2302.09981
 
 %---------------------------------------------%
 
-The corresponding flowfield datasets for Re=90, Re=180 are uploaded in Zenodo, in zipped format and can be downloaded from 10.5281/zenodo.10779374.
+The corresponding flowfield datasets for Re=90, Re=180 are uploaded in Zenodo, in zipped format and can be downloaded from https://zenodo.org/records/10779375.
 Oscillation data are collected in "functionals.txt", flowfield data are given in .csv format for each timestep in "Flowfield data".
 
 %---------------------------------------------%
 
 VIV_sFOM_POD_inference.m : Main code to be executed. The user is prompted to provide with the directory paths to the dataset and the MESH2D tool.
 MESH2D can be downloaded from https://matlab.mathworks.com/open/fileexchange/v1?id=25555.
-The dataset can be downloaded and unzipped from 10.5281/zenodo.10779374.
+The dataset can be downloaded and unzipped from https://zenodo.org/records/10779375.
 
 %---------------------------------------------%
 
