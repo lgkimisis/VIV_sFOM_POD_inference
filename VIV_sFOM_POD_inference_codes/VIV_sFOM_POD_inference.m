@@ -452,7 +452,7 @@ hcb.Title.String = '\lambda';
 colormap jet
 xlabel('x (m)')
 ylabel('y (m)')
-title('u_x')
+title('u_y')
 set(gca, 'FontName', 'Times New Roman')
 set(gca, 'FontSize', 16)
 drawnow
