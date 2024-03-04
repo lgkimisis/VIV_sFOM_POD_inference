@@ -7,10 +7,11 @@ by L. Gkimisis, T. Richter, P. Benner.
 https://arxiv.org/abs/2302.09981
 %---------------------------------------------%
 
-The corresponding dataset is given in parts in accordance to github guidelines. The data should be unzipped and stored to a folder.
+The corresponding flowfield datasets for Re=90, Re=180 are uploaded in 4 zipped parts. Each flowfield dataset should be unzipped to a common directory. File functionals.txt contains the solid dynamics response (oscillation along streamwise and transverse direction).
 %---------------------------------------------%
 
-VIV_sFOM_POD_inference.m : Main code to be executed. The user is prompted to provide with the directory paths to the dataset and the mesh2D tool.
+VIV_sFOM_POD_inference.m : Main code to be executed. The user is prompted to provide with the directory paths to the dataset and the MESH2D tool.
+MESH2D can be downloaded from https://matlab.mathworks.com/open/fileexchange/v1?id=25555.
 %---------------------------------------------%
 
 Functions called in Full_FSI_3A_proj.m :
