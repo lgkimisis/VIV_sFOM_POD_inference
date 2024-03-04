@@ -1,0 +1,22 @@
+Brief description for sparse-FOM/POD model, tested for Re=90 and Re=180 VIV testcases.
+The code is written in MATLAB 2017a.
+%---------------------------------------------%
+
+The corresponding theory and analysis is given in "Adjacency-based, non-intrusive model reduction for Vortex-Induced Vibrations", 
+by L. Gkimisis, T. Richter, P. Benner.
+https://arxiv.org/abs/2302.09981
+%---------------------------------------------%
+
+The corresponding dataset is given in parts in accordance to github guidelines. The data should be unzipped and stored to a folder.
+%---------------------------------------------%
+
+VIV_sFOM_POD_inference.m : Main code to be executed. The user is prompted to provide with the directory paths to the dataset and the mesh2D tool.
+%---------------------------------------------%
+
+Functions called in Full_FSI_3A_proj.m :
+
+FE_solver_v3b.m : Construct a mesh by Delaunay triangulation using MESH2D and solve a linear Laplace problem for fluid mesh displacement.
+natsortfiles : Read snapshot data files sorted over time.
+custom_cmap : Custom colormap used for figures.
+MESH2D Package : Unstructured mesh generation. See https://www.mathworks.com/matlabcentral/fileexchange/25555-mesh2d-delaunay-based-unstructured-mesh-generation
+%---------------------------------------------%
