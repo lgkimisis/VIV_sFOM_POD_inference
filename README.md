@@ -24,8 +24,11 @@ The dataset can be downloaded and unzipped from https://zenodo.org/records/10779
 Functions called in Full_FSI_3A_proj.m :
 
 FE_solver_v3b.m : Construct a mesh by Delaunay triangulation using MESH2D and solve a linear Laplace problem for fluid mesh displacement.
+
 natsortfiles : Read snapshot data files sorted over time.
+
 custom_cmap : Custom colormap used for figures.
+
 MESH2D Package : Unstructured mesh generation. See https://www.mathworks.com/matlabcentral/fileexchange/25555-mesh2d-delaunay-based-unstructured-mesh-generation
 
 %---------------------------------------------%
